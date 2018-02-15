@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "publishedAt": {
+      "type": "date"
+    },
+    "author": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "ignore_above": 256,
+          "type": "keyword"
+        }
+      }
+    },
+    "urlToImage": {
+      "type": "keyword"
+    },
+    "description": {
+      "type": "text"
+    },
+    "source": {
+      "properties": {
+        "name": {
+          "type": "keyword"
+        },
+        "id": {
+          "type": "keyword"
+        }
+      }
+    },
+    "title": {
+      "type": "text"
+    },
+    "url": {
+      "type": "keyword"
+    }
+  }
+}

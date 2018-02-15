@@ -1,0 +1,6 @@
+{
+  "newsapi_key": "",
+  "newsapi_url": "http://newsapi.org/v2/everything",
+  "newsapi_max_no_requests": 5,
+  "newsapi_sources": "spiegel-online"
+}
